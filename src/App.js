@@ -7,7 +7,7 @@ import axios from 'axios';
   const Home = lazy(() => import('./Home'));
   const Market = lazy(() => import('./Market'));
   const Download = lazy(() => import('./Download'));
-  const Api = lazy(() => import('./Api'));
+  const Api1 = lazy(() => import('./Api1'));
 
 
  
@@ -22,7 +22,8 @@ import axios from 'axios';
       <Route path="Home" element={<Home />} />
       <Route path="Market" element={<Market />} />
       <Route path="Download" element={<Download />} />
-      <Route path="Api" element={<Api />} />
+      <Route path="Api1" element={<Api1 />} />
+
       
 
   </Routes>
